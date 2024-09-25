@@ -23,15 +23,14 @@ function InlineSlider() {
         onMouseLeave={handleMouseLeave}
       >
         <SliderContent 
-          company='Google' 
-          role='Software Engineer' 
-          date='2020 - 2021' 
-          description='Lorem ipsum dolor sit amet, consectetur adipiscing elit
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+          company='SoftImpact' 
+          role='Software Engineer Intern' 
+          date='June2024 -Present' 
+          description='Collaborated with a cross-functional team to implement AWS Lambda for serverless processing, reducing infrastructure costs by 25% and worked on setting up event-driven architectures using Lambda triggers, which now handle over 100,000 requests per day with minimal downtime.
+Assisted in integrating Amazon S3 with Django APIs, focusing on optimizing data transfer and file storage.
+Worked alongside senior engineers to develop middleware that improved large file uploads.
+Collaborated on automating data pipelines with Apache Spark, optimizing ETL workflows and reducing processing through efficient partitioning strategies.
+.'
           num='1.'
           hovered={hoveredDiv !== 'div2' && hoveredDiv !== 'div3'}
         />
@@ -44,12 +43,14 @@ function InlineSlider() {
         onMouseLeave={handleMouseLeave}
       >
         <SliderContent 
-          company='SoftImpact' 
-          role='Frontend Developer' 
-          date='2019 - 2020' 
-          description='Lorem ipsum dolor sit amet, consectetur adipiscing elit
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+          company='KYRA Group LLC' 
+          role='Full-Stack Developer Intern' 
+          date='May2023 - December2023' 
+          description='Collaborated closely with UX designers on developing a platform used by 7,000+ stakeholders, with React.js
+Assisted with the mobile team to add features like offline caching and background syncing, with React-Native.
+Supported backend improvements by containerizing services using Docker, which enhanced CI/CD pipelines. 
+Helped integrate Redis caching into the Node.js application, reducing the database query load by 35% and improving response times. 
+.'
           num='2.'
           hovered={hoveredDiv === 'div2'}
         />
@@ -62,12 +63,10 @@ function InlineSlider() {
         onMouseLeave={handleMouseLeave}
       >
         <SliderContent 
-          company='Kyra Group' 
-          role='Backend Developer' 
-          date='2018 - 2019' 
-          description='Lorem ipsum dolor sit amet, consectetur adipiscing elit
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+          company='Coming Soon' 
+          role='' 
+          date='' 
+          description=''
 
           num='3.'
           hovered={hoveredDiv === 'div3'}
